@@ -1,0 +1,19 @@
+@LocalizadorGps.Presentacion_HostAddress = https://localhost:5001
+
+### Obtener listado de vehículos activos con ubicación reciente
+GET {{LocalizadorGps.Presentacion_HostAddress}}/api/vehiculos/activos
+Authorization: Bearer {{token}}
+Accept: application/json
+
+### Registrar una ubicación (ejemplo)
+POST {{LocalizadorGps.Presentacion_HostAddress}}/api/ubicaciones
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "vehiculoId": "00000000-0000-0000-0000-000000000000",
+  "dispositivoId": "00000000-0000-0000-0000-000000000000",
+  "latitud": -33.4489,
+  "longitud": -70.6693,
+  "fechaMuestraUtc": "2024-01-01T12:00:00Z"
+}

@@ -1,0 +1,33 @@
+**/bin/
+**/obj/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider/VSCode
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Visual Studio artifacts
+[Tt]est[Rr]esult*/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+# Coverage
+coverage/
+
+# EF Core
+Migrations/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
